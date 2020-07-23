@@ -1,9 +1,11 @@
 #include <iostream>
-#include "MainProgram.hpp"
+#include "Executer.hpp"
 
-int main()
+int main(int argc, char **argv)
 {
-    MainProgram pr{};
-    pr.run();
+    Main_executer exec{};
+    exec.run();
     return 0;
 }
+
+
