@@ -24,5 +24,6 @@ std::unique_ptr<Command_base> Main_receiver::run()
     std::string str {get_command_from_user()};
     std::unique_ptr<Command_base> cmd {new Main_command{}};
     cmd->store(str);
+    //parser
     return cmd;
 }
