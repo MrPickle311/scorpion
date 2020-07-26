@@ -1,0 +1,12 @@
+add_library(Correct_checker_engine
+include/Correct_checker_engine_base.hpp
+src/Correct_checker_engine_base.cpp
+include/Correct_checker_engine_base_interfaces.hpp
+src/Main_correct_checker_engine.cpp
+include/Main_correct_checker_engine.hpp
+)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+target_include_directories(Correct_checker_engine PUBLIC include)

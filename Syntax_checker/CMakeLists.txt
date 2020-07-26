@@ -6,8 +6,8 @@ src/Main_syntax_checker.cpp
 include/Main_syntax_checker.hpp
 )
 
-add_subdirectory(Ambigious_checker)
-
+add_subdirectory(Correct_checker_engine)
+add_subdirectory(Syntax_predicates)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
