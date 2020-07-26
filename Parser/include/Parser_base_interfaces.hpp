@@ -5,13 +5,13 @@
 #include <string>
 #include <Command_base.hpp>
 
-class Command_base_input
+class Parser_base_input
 {
 
 };
 
 
-class Command_base_output
+class Parser_base_output
 {
 
 };

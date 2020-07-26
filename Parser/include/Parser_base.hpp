@@ -1,12 +1,18 @@
 #ifndef PARSER_BASE_H
 #define PARSER_BASE_H
-#include "Command_base_interfaces.hpp"
+#include "Parser_base_interfaces.hpp"
 
-class Parser_base: public Command_input_base,
-                   public Command_output_base
+class Parser_base: public Parser_base_input,
+                   public Parser_base_output
 {
+protected:
+
+protected:
+    const std::regex reg_;
 public:
-    Parser_base();
+    Parser_base(std::string);
+
+
 };
 
 #endif // PARSER_BASE_H
