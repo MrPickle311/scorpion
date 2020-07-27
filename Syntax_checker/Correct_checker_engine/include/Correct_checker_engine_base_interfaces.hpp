@@ -8,13 +8,13 @@
 #include <atomic>
 #include <list>
 
-using func_type = std::function<bool(std::string)>;
-using func_type_ptr = std::unique_ptr<std::function<bool(std::string)>>;
+using predicate = std::function<bool(std::string)>;
+using predicate_ptr = std::unique_ptr<std::function<bool(std::string)>>;
 
 class Correct_checker_engine_input_base
 {
 public:
-    virtual void add_function(std::function<bool(std::string)>&& func) = 0;
+    virtual void add_predicate(std::function<bool(std::string)>&& func) = 0;
 };
 
 class Correct_checker_engine_output_base

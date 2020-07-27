@@ -12,7 +12,6 @@
 
 
 //niezmienniki
-//receiver zawsze zwraca prawidłową główną komendę
 
 
 class Command_receiver_input_base

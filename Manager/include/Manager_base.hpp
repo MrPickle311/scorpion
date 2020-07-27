@@ -1,7 +1,7 @@
 #ifndef MANAGER_BASE_HPP
 #define MANAGER_BASE_HPP
 #include "Command_base.hpp"
-#include "Command_receiver_base.hpp"
+#include "Main_receiver.hpp"
 #include "sigslot/signal.hpp"
 #include <atomic>
 

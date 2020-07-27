@@ -18,7 +18,8 @@ void Main_manager::run_parser(std::unique_ptr<Command_output_base>&& command)
 
 void Main_manager::run()
 {
-    while (!this->done_flag_.load()) {
+    while (!this->done_flag_.load())
+    {
         run_command_receiver();
     }
 }

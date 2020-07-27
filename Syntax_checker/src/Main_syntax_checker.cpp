@@ -5,5 +5,5 @@
 bool Main_syntax_checker::check_syntax(std::string command)
 {
     std::regex qcmd{"(.*){1}(\\{.*\\})"};
-    std::regex
+
 }

@@ -8,11 +8,9 @@ class Parser_base: public Parser_base_input,
 protected:
 
 protected:
-    const std::regex reg_;
+    const std::regex csyntax_;
 public:
     Parser_base(std::string);
-
-
 };
 
 #endif // PARSER_BASE_H
