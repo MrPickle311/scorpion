@@ -1,7 +1,7 @@
 #ifndef EXECUTER_HPP
 #define EXECUTER_HPP
 #include <sigslot/signal.hpp>
-#include "Manager_base.hpp"
+#include "Main_manager.hpp"
 #include <atomic>
 #include <memory>
 
@@ -40,6 +40,8 @@ class Main_executer : protected Executer_base
 {
 public:
     Main_executer();
+
+    Main_executer(const std::unique_ptr<Main_data_preparator> &preparator);
 
     // Executer_base interface
 public:

@@ -21,8 +21,7 @@ add_subdirectory(Manager)
 add_subdirectory(Common_interfaces)
 add_subdirectory(Executer)
 add_subdirectory(Converter)
-
-
+add_subdirectory(Error_propagator)
 
 
 set(CMAKE_CXX_FLAGS_COVERAGE "${CMAKE_CXX_FLAGS_RELEASE} -fprofile-arcs -ftest-coverage")
@@ -40,14 +39,17 @@ add_executable(scorpion
     MainProgram.hpp
     ${SRC_LIST} ${RESOURCES}
     )
+
 target_link_libraries(scorpion Channel_flag)
 target_link_libraries(scorpion Channel)
 target_link_libraries(scorpion Executer)
+target_link_libraries(scorpion Manager)
+target_link_libraries(scorpion Receiver)
+target_link_libraries(scorpion Command)
 
-target_include_directories(Manager PUBLIC include)
-target_include_directories(Manager PUBLIC ../Receiver/include)
-target_include_directories(Manager PUBLIC ../Command/include)
-target_include_directories(Receiver PUBLIC ../Converter/include)
+target_include_directories(scorpion PUBLIC include)
+target_include_directories(scorpion PUBLIC ../Command/include)
+target_include_directories(scorpion PUBLIC ../Converter/include)
 
 target_link_libraries(scorpion ${GTEST_LIBRARIES} pthread)
 target_link_libraries(scorpion  Pal::Sigslot)

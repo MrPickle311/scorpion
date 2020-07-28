@@ -1,0 +1,2 @@
+/usr/bin/ar qc libExecuter.a  CMakeFiles/Executer.dir/src/Executer.cpp.o
+/usr/bin/ranlib libExecuter.a

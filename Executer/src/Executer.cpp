@@ -7,7 +7,7 @@ void Main_data_preparator::prepare_data()
 
 }
 
-Main_executer::Main_executer(): preparator_{}
+Main_executer::Main_executer(): preparator_{new Main_data_preparator{}},manager_{new Main_manager{}}
 {
 
 }

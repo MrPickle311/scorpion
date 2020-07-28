@@ -1,0 +1,2 @@
+/usr/bin/ar qc libRuntime_tools.a  CMakeFiles/Runtime_tools.dir/src/RuntimeSyntaxAnalizer.cpp.o
+/usr/bin/ranlib libRuntime_tools.a

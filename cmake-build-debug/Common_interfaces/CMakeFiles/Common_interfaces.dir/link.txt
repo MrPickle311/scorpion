@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCommon_interfaces.a  CMakeFiles/Common_interfaces.dir/src/Common_interfaces.cpp.o
+/usr/bin/ranlib libCommon_interfaces.a

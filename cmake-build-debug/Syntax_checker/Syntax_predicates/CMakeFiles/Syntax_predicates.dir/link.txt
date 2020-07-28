@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSyntax_predicates.a  CMakeFiles/Syntax_predicates.dir/src/Syntax_predicates.cpp.o
+/usr/bin/ranlib libSyntax_predicates.a

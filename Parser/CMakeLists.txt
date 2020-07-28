@@ -9,3 +9,6 @@ include/Main_parser.hpp
 
 target_include_directories(Parser PUBLIC include)
 target_include_directories(Parser PUBLIC ../Command/include)
+target_include_directories(Parser PUBLIC ../Syntax_checker/include)
+target_include_directories(Parser PUBLIC ../Syntax_checker/Correct_checker_engine/include)
+target_include_directories(Parser PUBLIC ../Syntax_checker/Syntax_predicates/include)

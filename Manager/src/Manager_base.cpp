@@ -1,25 +1,15 @@
 #include "Manager_base.hpp"
 
-Main_manager::Main_manager()
-{
 
+Manager_base::Manager_base() noexcept : done_flag_(false) {}
+
+
+
+
+std::string Manager_base::run_command_receiver()
+{
 }
 
-void Main_manager::run_command_receiver()
+void Manager_base::run_parser(std::unique_ptr<Command_base> &&)
 {
-    run_parser(this->receiver_->run());
-}
-
-void Main_manager::run_parser(std::unique_ptr<Command_output_base>&& command)
-{
-
-    //odpalam parser
-}
-
-void Main_manager::run()
-{
-    while (!this->done_flag_.load())
-    {
-        run_command_receiver();
-    }
 }

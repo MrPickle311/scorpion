@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSyntax_checker.a  CMakeFiles/Syntax_checker.dir/src/Syntax_checker_base.cpp.o CMakeFiles/Syntax_checker.dir/src/Main_syntax_checker.cpp.o
+/usr/bin/ranlib libSyntax_checker.a
