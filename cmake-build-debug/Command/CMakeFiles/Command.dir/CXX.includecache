@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Command/include/Command_base.hpp
+Command_base_interfaces.hpp
+../Command/include/Command_base_interfaces.hpp
+
+../Command/include/Command_base_interfaces.hpp
+memory
+-
+string
+-
+
+../Command/include/Main_command.hpp
+Command_base.hpp
+../Command/include/Command_base.hpp
+
+/home/damiano/scorpion/Command/src/Command_base.cpp
+Command_base.hpp
+/home/damiano/scorpion/Command/src/Command_base.hpp
+
+/home/damiano/scorpion/Command/src/Main_command.cpp
+Main_command.hpp
+/home/damiano/scorpion/Command/src/Main_command.hpp
+

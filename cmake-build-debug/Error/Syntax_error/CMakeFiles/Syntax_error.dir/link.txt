@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSyntax_error.a  CMakeFiles/Syntax_error.dir/src/Syntax_error_base.cpp.o
+/usr/bin/ranlib libSyntax_error.a

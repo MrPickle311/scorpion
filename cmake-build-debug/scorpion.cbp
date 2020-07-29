@@ -1,0 +1,1220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="scorpion"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Channel\;CMake Files\Channel_flag\;CMake Files\Command\;CMake Files\Error\;CMake Files\Error\Syntax_error\;CMake Files\Parser\;CMake Files\Program\;CMake Files\Receiver\;CMake Files\Runtime_tools\;CMake Files\Syntax_checker\;CMake Files\Syntax_checker\Correct_checker_engine\;CMake Files\Syntax_checker\Syntax_predicates\;CMake Files\Manager\;CMake Files\Common_interfaces\;CMake Files\Executer\;CMake Files\Converter\;CMake Files\Error_propagator\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scorpion">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/scorpion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/include"/>
+					<Add directory="/home/damiano/scorpion/("/>
+					<Add directory="/home/damiano/scorpion/)"/>
+					<Add directory="/home/damiano/scorpion/../Command/include"/>
+					<Add directory="/home/damiano/scorpion/../Converter/include"/>
+					<Add directory="/home/damiano/scorpion/Channel_flag/include"/>
+					<Add directory="/home/damiano/scorpion/Channel/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Manager/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Command/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Receiver/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Syntax_checker/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Converter/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Parser/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Syntax_checker/Syntax_predicates/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Syntax_checker/Correct_checker_engine/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Receiver/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Command/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Converter/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Parser/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Syntax_checker/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Syntax_checker/Syntax_predicates/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Syntax_checker/Correct_checker_engine/include"/>
+					<Add directory="/home/damiano/scorpion/Receiver/include"/>
+					<Add directory="/home/damiano/scorpion/Receiver/../Syntax_checker/include"/>
+					<Add directory="/home/damiano/scorpion/Receiver/../Command/include"/>
+					<Add directory="/home/damiano/scorpion/Receiver/../Converter/include"/>
+					<Add directory="/home/damiano/scorpion/Command/include"/>
+					<Add directory="/home/damiano/scorpion/Command/../Converter/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Makefile&quot;  VERBOSE=1 scorpion"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scorpion/fast">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/scorpion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/include"/>
+					<Add directory="/home/damiano/scorpion/("/>
+					<Add directory="/home/damiano/scorpion/)"/>
+					<Add directory="/home/damiano/scorpion/../Command/include"/>
+					<Add directory="/home/damiano/scorpion/../Converter/include"/>
+					<Add directory="/home/damiano/scorpion/Channel_flag/include"/>
+					<Add directory="/home/damiano/scorpion/Channel/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Manager/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Command/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Receiver/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Syntax_checker/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Converter/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Parser/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Syntax_checker/Syntax_predicates/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Syntax_checker/Correct_checker_engine/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Receiver/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Command/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Converter/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Parser/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Syntax_checker/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Syntax_checker/Syntax_predicates/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Syntax_checker/Correct_checker_engine/include"/>
+					<Add directory="/home/damiano/scorpion/Receiver/include"/>
+					<Add directory="/home/damiano/scorpion/Receiver/../Syntax_checker/include"/>
+					<Add directory="/home/damiano/scorpion/Receiver/../Command/include"/>
+					<Add directory="/home/damiano/scorpion/Receiver/../Converter/include"/>
+					<Add directory="/home/damiano/scorpion/Command/include"/>
+					<Add directory="/home/damiano/scorpion/Command/../Converter/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Makefile&quot;  VERBOSE=1 scorpion/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Channel">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Channel/libChannel.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Channel"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Channel/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Channel/Makefile&quot;  VERBOSE=1 Channel"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Channel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Channel/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Channel/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Channel/fast">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Channel/libChannel.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Channel"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Channel/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Channel/Makefile&quot;  VERBOSE=1 Channel/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Channel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Channel/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Channel/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Channel_flag">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Channel_flag/libChannel_flag.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Channel_flag"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Channel_flag/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Channel_flag/Makefile&quot;  VERBOSE=1 Channel_flag"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Channel_flag/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Channel_flag/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Channel_flag/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Channel_flag/fast">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Channel_flag/libChannel_flag.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Channel_flag"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Channel_flag/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Channel_flag/Makefile&quot;  VERBOSE=1 Channel_flag/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Channel_flag/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Channel_flag/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Channel_flag/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Command">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Command/libCommand.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Command"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Command/include"/>
+					<Add directory="/home/damiano/scorpion/Command/../Converter/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Command/Makefile&quot;  VERBOSE=1 Command"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Command/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Command/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Command/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Command/fast">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Command/libCommand.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Command"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Command/include"/>
+					<Add directory="/home/damiano/scorpion/Command/../Converter/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Command/Makefile&quot;  VERBOSE=1 Command/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Command/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Command/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Command/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Error">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Error/libError.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Error"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Error/include"/>
+					<Add directory="/home/damiano/scorpion/Error/Syntax_error/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Error/Makefile&quot;  VERBOSE=1 Error"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Error/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Error/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Error/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Error/fast">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Error/libError.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Error"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Error/include"/>
+					<Add directory="/home/damiano/scorpion/Error/Syntax_error/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Error/Makefile&quot;  VERBOSE=1 Error/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Error/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Error/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Error/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Syntax_error">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Error/Syntax_error/libSyntax_error.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Error/Syntax_error"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Error/Syntax_error/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Error/Syntax_error/Makefile&quot;  VERBOSE=1 Syntax_error"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Error/Syntax_error/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Error/Syntax_error/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Error/Syntax_error/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Syntax_error/fast">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Error/Syntax_error/libSyntax_error.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Error/Syntax_error"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Error/Syntax_error/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Error/Syntax_error/Makefile&quot;  VERBOSE=1 Syntax_error/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Error/Syntax_error/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Error/Syntax_error/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Error/Syntax_error/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Parser">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Parser/libParser.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Parser"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Parser/include"/>
+					<Add directory="/home/damiano/scorpion/Parser/../Command/include"/>
+					<Add directory="/home/damiano/scorpion/Parser/../Syntax_checker/include"/>
+					<Add directory="/home/damiano/scorpion/Parser/../Syntax_checker/Correct_checker_engine/include"/>
+					<Add directory="/home/damiano/scorpion/Parser/../Syntax_checker/Syntax_predicates/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Parser/Makefile&quot;  VERBOSE=1 Parser"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Parser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Parser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Parser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Parser/fast">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Parser/libParser.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Parser"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Parser/include"/>
+					<Add directory="/home/damiano/scorpion/Parser/../Command/include"/>
+					<Add directory="/home/damiano/scorpion/Parser/../Syntax_checker/include"/>
+					<Add directory="/home/damiano/scorpion/Parser/../Syntax_checker/Correct_checker_engine/include"/>
+					<Add directory="/home/damiano/scorpion/Parser/../Syntax_checker/Syntax_predicates/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Parser/Makefile&quot;  VERBOSE=1 Parser/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Parser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Parser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Parser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Program">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Program/libProgram.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Program"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Program/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Program/Makefile&quot;  VERBOSE=1 Program"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Program/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Program/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Program/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Program/fast">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Program/libProgram.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Program"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Program/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Program/Makefile&quot;  VERBOSE=1 Program/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Program/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Program/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Program/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Receiver">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Receiver/libReceiver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Receiver"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Receiver/include"/>
+					<Add directory="/home/damiano/scorpion/Receiver/../Syntax_checker/include"/>
+					<Add directory="/home/damiano/scorpion/Receiver/../Command/include"/>
+					<Add directory="/home/damiano/scorpion/Receiver/../Converter/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Receiver/Makefile&quot;  VERBOSE=1 Receiver"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Receiver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Receiver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Receiver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Receiver/fast">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Receiver/libReceiver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Receiver"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Receiver/include"/>
+					<Add directory="/home/damiano/scorpion/Receiver/../Syntax_checker/include"/>
+					<Add directory="/home/damiano/scorpion/Receiver/../Command/include"/>
+					<Add directory="/home/damiano/scorpion/Receiver/../Converter/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Receiver/Makefile&quot;  VERBOSE=1 Receiver/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Receiver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Receiver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Receiver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Runtime_tools">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Runtime_tools/libRuntime_tools.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Runtime_tools"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Runtime_tools/include"/>
+					<Add directory="/home/damiano/scorpion/Runtime_tools/../Channel/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Runtime_tools/Makefile&quot;  VERBOSE=1 Runtime_tools"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Runtime_tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Runtime_tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Runtime_tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Runtime_tools/fast">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Runtime_tools/libRuntime_tools.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Runtime_tools"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Runtime_tools/include"/>
+					<Add directory="/home/damiano/scorpion/Runtime_tools/../Channel/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Runtime_tools/Makefile&quot;  VERBOSE=1 Runtime_tools/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Runtime_tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Runtime_tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Runtime_tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Syntax_checker">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Syntax_checker/libSyntax_checker.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Syntax_checker"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Syntax_checker/include"/>
+					<Add directory="/home/damiano/scorpion/Syntax_checker/../Command/include"/>
+					<Add directory="/home/damiano/scorpion/Syntax_checker/../Converter/include"/>
+					<Add directory="/home/damiano/scorpion/Syntax_checker/Correct_checker_engine/include"/>
+					<Add directory="/home/damiano/scorpion/Syntax_checker/Syntax_predicates/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Makefile&quot;  VERBOSE=1 Syntax_checker"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Syntax_checker/fast">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Syntax_checker/libSyntax_checker.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Syntax_checker"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Syntax_checker/include"/>
+					<Add directory="/home/damiano/scorpion/Syntax_checker/../Command/include"/>
+					<Add directory="/home/damiano/scorpion/Syntax_checker/../Converter/include"/>
+					<Add directory="/home/damiano/scorpion/Syntax_checker/Correct_checker_engine/include"/>
+					<Add directory="/home/damiano/scorpion/Syntax_checker/Syntax_predicates/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Makefile&quot;  VERBOSE=1 Syntax_checker/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Correct_checker_engine">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Correct_checker_engine/libCorrect_checker_engine.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Correct_checker_engine"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Syntax_checker/Correct_checker_engine/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Correct_checker_engine/Makefile&quot;  VERBOSE=1 Correct_checker_engine"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Correct_checker_engine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Correct_checker_engine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Correct_checker_engine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Correct_checker_engine/fast">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Correct_checker_engine/libCorrect_checker_engine.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Correct_checker_engine"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Syntax_checker/Correct_checker_engine/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Correct_checker_engine/Makefile&quot;  VERBOSE=1 Correct_checker_engine/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Correct_checker_engine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Correct_checker_engine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Correct_checker_engine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Syntax_predicates">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Syntax_predicates/libSyntax_predicates.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Syntax_predicates"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Syntax_predicates/Makefile&quot;  VERBOSE=1 Syntax_predicates"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Syntax_predicates/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Syntax_predicates/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Syntax_predicates/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Syntax_predicates/fast">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Syntax_predicates/libSyntax_predicates.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Syntax_predicates"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Syntax_predicates/Makefile&quot;  VERBOSE=1 Syntax_predicates/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Syntax_predicates/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Syntax_predicates/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Syntax_checker/Syntax_predicates/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Manager">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Manager/libManager.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Manager"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Manager/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Receiver/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Command/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Converter/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Parser/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Syntax_checker/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Syntax_checker/Syntax_predicates/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Syntax_checker/Correct_checker_engine/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Manager/Makefile&quot;  VERBOSE=1 Manager"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Manager/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Manager/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Manager/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Manager/fast">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Manager/libManager.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Manager"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Manager/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Receiver/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Command/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Converter/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Parser/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Syntax_checker/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Syntax_checker/Syntax_predicates/include"/>
+					<Add directory="/home/damiano/scorpion/Manager/../Syntax_checker/Correct_checker_engine/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Manager/Makefile&quot;  VERBOSE=1 Manager/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Manager/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Manager/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Manager/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Common_interfaces">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Common_interfaces/libCommon_interfaces.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Common_interfaces"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Common_interfaces/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Common_interfaces/Makefile&quot;  VERBOSE=1 Common_interfaces"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Common_interfaces/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Common_interfaces/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Common_interfaces/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Common_interfaces/fast">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Common_interfaces/libCommon_interfaces.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Common_interfaces"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Common_interfaces/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Common_interfaces/Makefile&quot;  VERBOSE=1 Common_interfaces/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Common_interfaces/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Common_interfaces/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Common_interfaces/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Executer">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Executer/libExecuter.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Executer"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Executer/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Manager/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Command/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Receiver/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Syntax_checker/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Converter/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Parser/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Syntax_checker/Syntax_predicates/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Syntax_checker/Correct_checker_engine/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Executer/Makefile&quot;  VERBOSE=1 Executer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Executer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Executer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Executer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Executer/fast">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Executer/libExecuter.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Executer"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Executer/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Manager/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Command/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Receiver/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Syntax_checker/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Converter/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Parser/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Syntax_checker/Syntax_predicates/include"/>
+					<Add directory="/home/damiano/scorpion/Executer/../Syntax_checker/Correct_checker_engine/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Executer/Makefile&quot;  VERBOSE=1 Executer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Executer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Executer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Executer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Converter">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Converter/libConverter.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Converter"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Converter/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Converter/Makefile&quot;  VERBOSE=1 Converter"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Converter/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Converter/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Converter/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Converter/fast">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Converter/libConverter.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Converter"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Converter/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Converter/Makefile&quot;  VERBOSE=1 Converter/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Converter/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Converter/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Converter/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Error_propagator">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Error_propagator/libError_propagator.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Error_propagator"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Error_propagator/include"/>
+					<Add directory="/home/damiano/scorpion/Error_propagator/../Command/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Error_propagator/Makefile&quot;  VERBOSE=1 Error_propagator"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Error_propagator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Error_propagator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Error_propagator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Error_propagator/fast">
+				<Option output="/home/damiano/scorpion/cmake-build-debug/Error_propagator/libError_propagator.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damiano/scorpion/cmake-build-debug/Error_propagator"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/damiano/scorpion/Error_propagator/include"/>
+					<Add directory="/home/damiano/scorpion/Error_propagator/../Command/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Error_propagator/Makefile&quot;  VERBOSE=1 Error_propagator/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Error_propagator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Error_propagator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damiano/scorpion/cmake-build-debug/Error_propagator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/damiano/scorpion/Channel/include/Channel_base.hpp">
+			<Option target="Channel"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Channel/src/Channel_base.cpp">
+			<Option target="Channel"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Channel_flag/include/Channel_flag_base.hpp">
+			<Option target="Channel_flag"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Channel_flag/src/Channel_flag_base.cpp">
+			<Option target="Channel_flag"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Command/include/Command_base.hpp">
+			<Option target="Command"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Command/include/Command_base_interfaces.hpp">
+			<Option target="Command"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Command/include/Main_command.hpp">
+			<Option target="Command"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Command/src/Command_base.cpp">
+			<Option target="Command"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Command/src/Main_command.cpp">
+			<Option target="Command"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Common_interfaces/include/Common_interfaces.hpp">
+			<Option target="Common_interfaces"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Common_interfaces/src/Common_interfaces.cpp">
+			<Option target="Common_interfaces"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Converter/include/Converter.hpp">
+			<Option target="Converter"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Converter/src/Converter.cpp">
+			<Option target="Converter"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Error/Syntax_error/include/Syntax_error_base.hpp">
+			<Option target="Syntax_error"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Error/Syntax_error/include/Syntax_error_base_interfaces.hpp">
+			<Option target="Syntax_error"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Error/Syntax_error/src/Syntax_error_base.cpp">
+			<Option target="Syntax_error"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Error/include/Command_exception_base.hpp">
+			<Option target="Error"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Error/include/Error_base.hpp">
+			<Option target="Error"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Error/src/Command_exception_base.cpp">
+			<Option target="Error"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Error/src/Error_base.cpp">
+			<Option target="Error"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Error_propagator/include/Error_propagator_base.hpp">
+			<Option target="Error_propagator"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Error_propagator/include/Error_propagator_base_interfaces.hpp">
+			<Option target="Error_propagator"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Error_propagator/include/Main_error_propagator.hpp">
+			<Option target="Error_propagator"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Error_propagator/src/Error_propagator_base.cpp">
+			<Option target="Error_propagator"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Error_propagator/src/Main_error_propagator.cpp">
+			<Option target="Error_propagator"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Executer/include/Executer.hpp">
+			<Option target="Executer"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Executer/src/Executer.cpp">
+			<Option target="Executer"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/MainProgram.hpp">
+			<Option target="scorpion"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Manager/include/Main_manager.hpp">
+			<Option target="Manager"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Manager/include/Manager_base.hpp">
+			<Option target="Manager"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Manager/include/Manager_base_interfaces.hpp">
+			<Option target="Manager"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Manager/src/Main_manager.cpp">
+			<Option target="Manager"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Manager/src/Manager_base.cpp">
+			<Option target="Manager"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Parser/include/Main_parser.hpp">
+			<Option target="Parser"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Parser/include/Parser_base.hpp">
+			<Option target="Parser"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Parser/include/Parser_base_interfaces.hpp">
+			<Option target="Parser"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Parser/src/Main_parser.cpp">
+			<Option target="Parser"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Parser/src/Parser_base.cpp">
+			<Option target="Parser"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Program/include/Program_base.hpp">
+			<Option target="Program"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Program/src/Program_base.cpp">
+			<Option target="Program"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Receiver/include/Command_receiver_base.hpp">
+			<Option target="Receiver"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Receiver/include/Command_receiver_base_interfaces.hpp">
+			<Option target="Receiver"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Receiver/include/Main_receiver.hpp">
+			<Option target="Receiver"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Receiver/src/Command_receiver_base.cpp">
+			<Option target="Receiver"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Receiver/src/Main_receiver.cpp">
+			<Option target="Receiver"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Runtime_tools/include/RuntimeSyntaxAnalizer.hpp">
+			<Option target="Runtime_tools"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Runtime_tools/src/RuntimeSyntaxAnalizer.cpp">
+			<Option target="Runtime_tools"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Syntax_checker/Correct_checker_engine/include/Correct_checker_engine_base.hpp">
+			<Option target="Correct_checker_engine"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Syntax_checker/Correct_checker_engine/include/Correct_checker_engine_base_interfaces.hpp">
+			<Option target="Correct_checker_engine"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Syntax_checker/Correct_checker_engine/include/Main_correct_checker_engine.hpp">
+			<Option target="Correct_checker_engine"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Syntax_checker/Correct_checker_engine/src/Correct_checker_engine_base.cpp">
+			<Option target="Correct_checker_engine"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Syntax_checker/Correct_checker_engine/src/Main_correct_checker_engine.cpp">
+			<Option target="Correct_checker_engine"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Syntax_checker/Syntax_predicates/include/Syntax_predicates.hpp">
+			<Option target="Syntax_predicates"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Syntax_checker/Syntax_predicates/src/Syntax_predicates.cpp">
+			<Option target="Syntax_predicates"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Syntax_checker/include/Main_syntax_checker.hpp">
+			<Option target="Syntax_checker"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Syntax_checker/include/Syntax_checker_base.hpp">
+			<Option target="Syntax_checker"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Syntax_checker/include/Syntax_checker_base_interfaces.hpp">
+			<Option target="Syntax_checker"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Syntax_checker/src/Main_syntax_checker.cpp">
+			<Option target="Syntax_checker"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Syntax_checker/src/Syntax_checker_base.cpp">
+			<Option target="Syntax_checker"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/main.cpp">
+			<Option target="scorpion"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Channel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Channel\"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Channel_flag/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Channel_flag\"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Command/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Command\"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Error/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Error\"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Error/Syntax_error/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Error\Syntax_error\"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Parser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Parser\"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Program/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Program\"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Receiver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Receiver\"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Runtime_tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Runtime_tools\"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Syntax_checker/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Syntax_checker\"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Syntax_checker/Correct_checker_engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Syntax_checker\Correct_checker_engine\"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Syntax_checker/Syntax_predicates/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Syntax_checker\Syntax_predicates\"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Manager/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Manager\"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Common_interfaces/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Common_interfaces\"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Executer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Executer\"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Converter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Converter\"/>
+		</Unit>
+		<Unit filename="/home/damiano/scorpion/Error_propagator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Error_propagator\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

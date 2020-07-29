@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCorrect_checker_engine.a  CMakeFiles/Correct_checker_engine.dir/src/Correct_checker_engine_base.cpp.o CMakeFiles/Correct_checker_engine.dir/src/Main_correct_checker_engine.cpp.o
+/usr/bin/ranlib libCorrect_checker_engine.a
