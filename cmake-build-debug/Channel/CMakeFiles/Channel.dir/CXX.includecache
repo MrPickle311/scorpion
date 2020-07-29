@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Channel/include/Channel_base.hpp
+
+/home/damiano/scorpion/Channel/src/Channel_base.cpp
+Channel_base.hpp
+/home/damiano/scorpion/Channel/src/Channel_base.hpp
+

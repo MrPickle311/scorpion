@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Channel_flag/include/Channel_flag_base.hpp
+
+/home/damiano/scorpion/Channel_flag/src/Channel_flag_base.cpp
+Channel_flag_base.hpp
+/home/damiano/scorpion/Channel_flag/src/Channel_flag_base.hpp
+
