@@ -11,6 +11,7 @@ protected:
     const std::regex csyntax_;
 public:
     Parser_base(std::string);
+
 };
 
 #endif // PARSER_BASE_H

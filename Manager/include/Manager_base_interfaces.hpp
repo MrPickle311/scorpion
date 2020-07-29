@@ -20,7 +20,7 @@ class Manager_output
 public:
     virtual ~Manager_output() = default;
 protected:
-    virtual void run_parser(std::unique_ptr<Command_base> &&) = 0;
+    virtual void run_parser(std::unique_ptr<std::string> &&) = 0;
 };
 
 class Manager_input_output

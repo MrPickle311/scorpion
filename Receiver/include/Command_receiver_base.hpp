@@ -11,7 +11,7 @@ class Command_receiver_base: public Command_receiver_input_base,
 protected:
     std::string getline_loop(std::function<bool(std::string)> );
 public:
-    virtual std::unique_ptr<Command_base> run() = 0;
+    virtual std::unique_ptr<std::string> run() = 0;
 };
 
 

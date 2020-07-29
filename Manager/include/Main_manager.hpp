@@ -18,7 +18,7 @@ protected:
 
     // Manager_output interface
 protected:
-    virtual void run_parser(std::unique_ptr<Command_base> &&) override;
+    virtual void run_parser(std::unique_ptr<std::string> &&) override;
 
     // Manager_base interface
 public:

@@ -19,11 +19,7 @@ std::string Main_receiver::get_command_from_user()
      return std::string{std::string{"exit"}};
 }
 
-std::unique_ptr<Command_base> Main_receiver::run()
+std::unique_ptr<std::string> Main_receiver::run()
 {
-    std::string str {get_command_from_user()};
-    std::unique_ptr<Command_base> cmd {new Main_command{}};
-    cmd->store(str);
-    //parser -> odpala syntax checkera
-    return cmd;
+    return std::unique_ptr<std::string> {new std::string{get_command_from_user()}};
 }

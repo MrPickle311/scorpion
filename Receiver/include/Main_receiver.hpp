@@ -14,7 +14,7 @@ protected:
 
     // Command_receiver_base interface
 public:
-    virtual std::unique_ptr<Command_base> run() override;
+    virtual std::unique_ptr<std::string> run() override;
 };
 
 #endif // MAIN_RECEIVER_HPP
