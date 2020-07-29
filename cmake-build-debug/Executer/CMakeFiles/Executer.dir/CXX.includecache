@@ -19,30 +19,38 @@ string
 ../Executer/include/Executer.hpp
 sigslot/signal.hpp
 -
-Manager_base.hpp
-../Executer/include/Manager_base.hpp
+Main_manager.hpp
+../Executer/include/Main_manager.hpp
 atomic
 -
 memory
 -
 
+../Manager/include/Main_manager.hpp
+Manager_base.hpp
 ../Manager/include/Manager_base.hpp
-Command_base.hpp
-../Manager/include/Command_base.hpp
 Main_receiver.hpp
 ../Manager/include/Main_receiver.hpp
+
+../Manager/include/Manager_base.hpp
+Manager_base_interfaces.hpp
+../Manager/include/Manager_base_interfaces.hpp
+
+../Manager/include/Manager_base_interfaces.hpp
 sigslot/signal.hpp
 ../Manager/include/sigslot/signal.hpp
 atomic
 -
+string
+-
+Command_base.hpp
+../Manager/include/Command_base.hpp
 
 ../Receiver/include/Command_receiver_base.hpp
 Command_receiver_base_interfaces.hpp
 ../Receiver/include/Command_receiver_base_interfaces.hpp
 
 ../Receiver/include/Command_receiver_base_interfaces.hpp
-sigslot/signal.hpp
--
 Syntax_checker_base.hpp
 ../Receiver/include/Syntax_checker_base.hpp
 string

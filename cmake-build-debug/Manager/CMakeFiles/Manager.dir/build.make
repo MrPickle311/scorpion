@@ -70,17 +70,32 @@ Manager/CMakeFiles/Manager.dir/src/Manager_base.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Manager.dir/src/Manager_base.cpp.s"
 	cd /home/damiano/scorpion/cmake-build-debug/Manager && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/damiano/scorpion/Manager/src/Manager_base.cpp -o CMakeFiles/Manager.dir/src/Manager_base.cpp.s
 
+Manager/CMakeFiles/Manager.dir/src/Main_manager.cpp.o: Manager/CMakeFiles/Manager.dir/flags.make
+Manager/CMakeFiles/Manager.dir/src/Main_manager.cpp.o: ../Manager/src/Main_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/damiano/scorpion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Manager/CMakeFiles/Manager.dir/src/Main_manager.cpp.o"
+	cd /home/damiano/scorpion/cmake-build-debug/Manager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Manager.dir/src/Main_manager.cpp.o -c /home/damiano/scorpion/Manager/src/Main_manager.cpp
+
+Manager/CMakeFiles/Manager.dir/src/Main_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Manager.dir/src/Main_manager.cpp.i"
+	cd /home/damiano/scorpion/cmake-build-debug/Manager && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/damiano/scorpion/Manager/src/Main_manager.cpp > CMakeFiles/Manager.dir/src/Main_manager.cpp.i
+
+Manager/CMakeFiles/Manager.dir/src/Main_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Manager.dir/src/Main_manager.cpp.s"
+	cd /home/damiano/scorpion/cmake-build-debug/Manager && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/damiano/scorpion/Manager/src/Main_manager.cpp -o CMakeFiles/Manager.dir/src/Main_manager.cpp.s
+
 # Object files for target Manager
 Manager_OBJECTS = \
-"CMakeFiles/Manager.dir/src/Manager_base.cpp.o"
+"CMakeFiles/Manager.dir/src/Manager_base.cpp.o" \
+"CMakeFiles/Manager.dir/src/Main_manager.cpp.o"
 
 # External object files for target Manager
 Manager_EXTERNAL_OBJECTS =
 
 Manager/libManager.a: Manager/CMakeFiles/Manager.dir/src/Manager_base.cpp.o
+Manager/libManager.a: Manager/CMakeFiles/Manager.dir/src/Main_manager.cpp.o
 Manager/libManager.a: Manager/CMakeFiles/Manager.dir/build.make
 Manager/libManager.a: Manager/CMakeFiles/Manager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/damiano/scorpion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libManager.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/damiano/scorpion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libManager.a"
 	cd /home/damiano/scorpion/cmake-build-debug/Manager && $(CMAKE_COMMAND) -P CMakeFiles/Manager.dir/cmake_clean_target.cmake
 	cd /home/damiano/scorpion/cmake-build-debug/Manager && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Manager.dir/link.txt --verbose=$(VERBOSE)
 

@@ -16,6 +16,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Executer/../Receiver/include"
   "../Executer/../Syntax_checker/include"
   "../Executer/../Converter/include"
+  "../Executer/../Parser/include"
+  "../Executer/../Syntax_checker/Syntax_predicates/include"
+  "../Executer/../Syntax_checker/Correct_checker_engine/include"
   )
 
 # Targets to which this target links.

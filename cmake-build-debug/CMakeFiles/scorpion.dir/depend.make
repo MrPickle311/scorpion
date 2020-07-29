@@ -4,7 +4,9 @@
 CMakeFiles/scorpion.dir/main.cpp.o: ../Command/include/Command_base.hpp
 CMakeFiles/scorpion.dir/main.cpp.o: ../Command/include/Command_base_interfaces.hpp
 CMakeFiles/scorpion.dir/main.cpp.o: ../Executer/include/Executer.hpp
+CMakeFiles/scorpion.dir/main.cpp.o: ../Manager/include/Main_manager.hpp
 CMakeFiles/scorpion.dir/main.cpp.o: ../Manager/include/Manager_base.hpp
+CMakeFiles/scorpion.dir/main.cpp.o: ../Manager/include/Manager_base_interfaces.hpp
 CMakeFiles/scorpion.dir/main.cpp.o: ../Receiver/include/Command_receiver_base.hpp
 CMakeFiles/scorpion.dir/main.cpp.o: ../Receiver/include/Command_receiver_base_interfaces.hpp
 CMakeFiles/scorpion.dir/main.cpp.o: ../Receiver/include/Main_receiver.hpp

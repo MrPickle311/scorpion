@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/damiano/scorpion/Error/include 
+CXX_INCLUDES = -I/home/damiano/scorpion/Error/include -I/home/damiano/scorpion/Error/Syntax_error/include 
 

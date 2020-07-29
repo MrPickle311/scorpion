@@ -4,7 +4,7 @@
 
 #include "Command_base.hpp"
 
-class Main_command : public Command_base
+class Main_command : public Command_base<std::string>
 {
     public: enum class Command_type{exit,order,program,script};
 private:

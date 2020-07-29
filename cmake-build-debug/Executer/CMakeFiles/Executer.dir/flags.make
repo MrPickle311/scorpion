@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/damiano/scorpion/Executer/include -I/home/damiano/scorpion/Executer/../Manager/include -I/home/damiano/scorpion/Executer/../Command/include -I/home/damiano/scorpion/Executer/../Receiver/include -I/home/damiano/scorpion/Executer/../Syntax_checker/include -I/home/damiano/scorpion/Executer/../Converter/include 
+CXX_INCLUDES = -I/home/damiano/scorpion/Executer/include -I/home/damiano/scorpion/Executer/../Manager/include -I/home/damiano/scorpion/Executer/../Command/include -I/home/damiano/scorpion/Executer/../Receiver/include -I/home/damiano/scorpion/Executer/../Syntax_checker/include -I/home/damiano/scorpion/Executer/../Converter/include -I/home/damiano/scorpion/Executer/../Parser/include -I/home/damiano/scorpion/Executer/../Syntax_checker/Syntax_predicates/include -I/home/damiano/scorpion/Executer/../Syntax_checker/Correct_checker_engine/include 
 

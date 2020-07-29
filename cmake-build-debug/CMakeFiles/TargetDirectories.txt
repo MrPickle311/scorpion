@@ -13,6 +13,9 @@
 /home/damiano/scorpion/cmake-build-debug/Error/CMakeFiles/edit_cache.dir
 /home/damiano/scorpion/cmake-build-debug/Error/CMakeFiles/rebuild_cache.dir
 /home/damiano/scorpion/cmake-build-debug/Error/CMakeFiles/Error.dir
+/home/damiano/scorpion/cmake-build-debug/Error/Syntax_error/CMakeFiles/edit_cache.dir
+/home/damiano/scorpion/cmake-build-debug/Error/Syntax_error/CMakeFiles/rebuild_cache.dir
+/home/damiano/scorpion/cmake-build-debug/Error/Syntax_error/CMakeFiles/Syntax_error.dir
 /home/damiano/scorpion/cmake-build-debug/Parser/CMakeFiles/rebuild_cache.dir
 /home/damiano/scorpion/cmake-build-debug/Parser/CMakeFiles/edit_cache.dir
 /home/damiano/scorpion/cmake-build-debug/Parser/CMakeFiles/Parser.dir
@@ -46,3 +49,6 @@
 /home/damiano/scorpion/cmake-build-debug/Converter/CMakeFiles/rebuild_cache.dir
 /home/damiano/scorpion/cmake-build-debug/Converter/CMakeFiles/edit_cache.dir
 /home/damiano/scorpion/cmake-build-debug/Converter/CMakeFiles/Converter.dir
+/home/damiano/scorpion/cmake-build-debug/Error_propagator/CMakeFiles/edit_cache.dir
+/home/damiano/scorpion/cmake-build-debug/Error_propagator/CMakeFiles/rebuild_cache.dir
+/home/damiano/scorpion/cmake-build-debug/Error_propagator/CMakeFiles/Error_propagator.dir

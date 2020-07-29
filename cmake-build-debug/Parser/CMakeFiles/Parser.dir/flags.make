@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/damiano/scorpion/Parser/include -I/home/damiano/scorpion/Parser/../Command/include 
+CXX_INCLUDES = -I/home/damiano/scorpion/Parser/include -I/home/damiano/scorpion/Parser/../Command/include -I/home/damiano/scorpion/Parser/../Syntax_checker/include -I/home/damiano/scorpion/Parser/../Syntax_checker/Correct_checker_engine/include -I/home/damiano/scorpion/Parser/../Syntax_checker/Syntax_predicates/include 
 

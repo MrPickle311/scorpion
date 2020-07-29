@@ -15,7 +15,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Receiver/../Syntax_checker/include"
   "../Receiver/../Command/include"
   "../Receiver/../Converter/include"
-  "../../Converter/include"
   )
 
 # Targets to which this target links.

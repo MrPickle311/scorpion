@@ -52,6 +52,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/damiano/scorpion/cmake-build-debug/Common_interfaces/cmake_install.cmake")
   include("/home/damiano/scorpion/cmake-build-debug/Executer/cmake_install.cmake")
   include("/home/damiano/scorpion/cmake-build-debug/Converter/cmake_install.cmake")
+  include("/home/damiano/scorpion/cmake-build-debug/Error_propagator/cmake_install.cmake")
 
 endif()
 

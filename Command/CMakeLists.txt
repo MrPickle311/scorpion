@@ -1,6 +1,6 @@
 add_library(Command
 include/Command_base.hpp
-src/Command_base.cpp
+#src/Command_base.cpp
 include/Command_base_interfaces.hpp
 include/Main_command.hpp
 src/Main_command.cpp

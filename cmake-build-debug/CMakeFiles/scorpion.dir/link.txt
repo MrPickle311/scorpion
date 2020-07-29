@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/scorpion.dir/main.cpp.o  -o scorpion  Channel_flag/libChannel_flag.a Channel/libChannel.a Executer/libExecuter.a /usr/lib/x86_64-linux-gnu/libgtest.a -lpthread -lpthread 
+/usr/bin/c++  -g   CMakeFiles/scorpion.dir/main.cpp.o  -o scorpion  Channel_flag/libChannel_flag.a Channel/libChannel.a Executer/libExecuter.a Manager/libManager.a Receiver/libReceiver.a Command/libCommand.a 

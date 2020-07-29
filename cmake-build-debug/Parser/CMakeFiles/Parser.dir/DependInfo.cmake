@@ -13,6 +13,9 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Parser/include"
   "../Parser/../Command/include"
+  "../Parser/../Syntax_checker/include"
+  "../Parser/../Syntax_checker/Correct_checker_engine/include"
+  "../Parser/../Syntax_checker/Syntax_predicates/include"
   )
 
 # Targets to which this target links.

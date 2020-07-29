@@ -5,7 +5,9 @@ Executer/CMakeFiles/Executer.dir/src/Executer.cpp.o
  ../Command/include/Command_base.hpp
  ../Command/include/Command_base_interfaces.hpp
  ../Executer/include/Executer.hpp
+ ../Manager/include/Main_manager.hpp
  ../Manager/include/Manager_base.hpp
+ ../Manager/include/Manager_base_interfaces.hpp
  ../Receiver/include/Command_receiver_base.hpp
  ../Receiver/include/Command_receiver_base_interfaces.hpp
  ../Receiver/include/Main_receiver.hpp

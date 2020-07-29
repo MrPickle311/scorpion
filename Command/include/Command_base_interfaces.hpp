@@ -4,23 +4,25 @@
 #include <memory>
 #include <string>
 
+template<class StorageType>
 class Command_input_base
 {
 public:
-    virtual ~Command_input_base() {};
+    virtual ~Command_input_base() = default;
 public:
-    virtual void store(const std::string&) = 0;
+    virtual void store(const StorageType&) = 0;
 
 };
 
+template<class StorageType>
 class Command_output_base
 {
 protected:
 
 public:
-    virtual ~Command_output_base() {};
+    virtual ~Command_output_base() = default;
 public:
-    virtual std::string load() const = 0;
+    virtual StorageType load() const = 0;
 
 };
 

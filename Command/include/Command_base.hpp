@@ -2,15 +2,23 @@
 #define COMMAND_BASE_HPP
 #include "Command_base_interfaces.hpp"
 
-class Command_base: public Command_input_base,public Command_output_base
+template<class StorageType>
+class Command_base: public Command_input_base<StorageType>,
+                    public Command_output_base<StorageType>
 {
 protected:
-    Command_base();
-    Command_base(std::string&&);
+    Command_base(): command_{"a"}
+    {
+
+    }
+    Command_base(StorageType&&)
+    {
+
+    }
 protected:
-    std::string command_;
+    StorageType command_;
 public:
-    virtual ~Command_base() {};
+    virtual ~Command_base() = default;
 };
 
 #endif // COMMAND_BASE_HPP

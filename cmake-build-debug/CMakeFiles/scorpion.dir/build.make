@@ -82,7 +82,9 @@ scorpion: CMakeFiles/scorpion.dir/build.make
 scorpion: Channel_flag/libChannel_flag.a
 scorpion: Channel/libChannel.a
 scorpion: Executer/libExecuter.a
-scorpion: /usr/lib/x86_64-linux-gnu/libgtest.a
+scorpion: Manager/libManager.a
+scorpion: Receiver/libReceiver.a
+scorpion: Command/libCommand.a
 scorpion: CMakeFiles/scorpion.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/damiano/scorpion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable scorpion"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scorpion.dir/link.txt --verbose=$(VERBOSE)
